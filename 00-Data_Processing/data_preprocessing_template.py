@@ -25,5 +25,3 @@ x = onehotencoder.fit_transform(x).toarray()
 
 labelencoder_y = LabelEncoder()
 y = labelencoder_y.fit_transform(y)
-y
-
